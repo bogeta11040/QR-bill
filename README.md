@@ -1,6 +1,9 @@
 # QR-bill
 QR scanner for electricity, gas and water bills. Outputs formatted data with copy/paste function.
 
+## How does it work
+First, QR data is extracted from code (ZXing). Then, data is processed using regex. Billing information is formatted, displayed to user and automatically copied to clipboard. Text area is selectable so user can copy partial information.
+
 ## Built With
 
 * [Kotlin](https://kotlinlang.org/) - Programming language used
